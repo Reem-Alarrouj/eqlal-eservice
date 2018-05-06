@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
 
 class EqlalController extends Controller
 {
@@ -11,9 +13,14 @@ class EqlalController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct()
+    {
+        $this->middleware('guest');
+    }
+
     public function index()
     {
-        return view('home');
+        return view('eqlal');
     }
 
     /**

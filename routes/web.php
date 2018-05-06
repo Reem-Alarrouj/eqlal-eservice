@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/eqlal','EqlalController@index')->name('home');
+
+
+Route::get('/eqlal','EqlalController@index');
