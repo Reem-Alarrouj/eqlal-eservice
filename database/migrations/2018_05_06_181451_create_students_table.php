@@ -21,8 +21,9 @@ class CreateStudentsTable extends Migration
              $table->string('email');
              $table->string('university');
              $table->string('building_number');
-             $table->enum('schedule', ['summer semester', 'first semester','second semester']);
-             $table->integer('status')->default(0);
+             // $table->enum('schedule', ['summer semester', 'first semester','second semester']);
+             // $table->integer('status')->default(0);
+             $table->integer('summer_semester')->default(0);
              $table->timestamps();
         });
     }
