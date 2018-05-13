@@ -103,7 +103,42 @@
                     </div><!-- /.container-fluid -->
                 </nav><!-- END OF /. NAVBAR -->
             </div><!-- END OF /. HEADER TOP SECTION -->
+ <!-- START CONTACT BTN SECTION -->
+            <div class="contact-btn-section">
+                <div class="container" >
+                    <div class="row" >
+                        <div class="col-md-12">
+                            <div class="headline-title" style="text-align: right">
+                                <h1>إذا كنت أحد مزودين الخدمة وتريد الإنضمام إلينا </h1>
+                            </div>
+                        </div>
+                    </div><!-- END OF /. ROW -->
 
+                    <form id="contact-form" action="#" name="contactform" method="post" class="contact-form">
+                                  <div class="row" >
+
+                                        <div class="col-md-4">
+                                            <div class="contact-btn" style="float: right">
+                                                <a href="#"> أدخل بياناتك </a>
+                                            </div>
+                                        </div>
+                                      <div class="col-md-4">
+                                          <div class="form-group">
+                                              <input type="text" name="subject" id="number" class="form-control2" placeholder="رقم التواصل" />
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <div class="form-group">
+                                              <input type="text" name="name" id="name" class="form-control2" placeholder="الاسم"/>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </form><!-- END OF /. FORM -->
+
+                </div>
+                <!-- END OF /. CONTAINER -->
+            </div>
+            <!-- END OF /. CONTACT BUTTON SECTION -->
             <!-- START SLIDER SECTION -->
             <div class="slider-section">
                 <div class="container-fluid">
@@ -361,42 +396,7 @@
             </div><!-- END OF /. CONTACT SECTION -->
 
 
-            <!-- START CONTACT BTN SECTION -->
-            <div class="contact-btn-section">
-                <div class="container" >
-                    <div class="row" >
-                        <div class="col-md-12">
-                            <div class="headline-title" style="text-align: center">
-                                <h1>إذا كنت أحد مزودين الخدمة وتريد الإنضمام إلينا </h1>
-                            </div>
-                        </div>
-                    </div><!-- END OF /. ROW -->
-
-                    <form id="contact-form" action="#" name="contactform" method="post" class="contact-form">
-                                  <div class="row" >
-
-                                        <div class="col-md-4">
-                                            <div class="contact-btn" style="float: right">
-                                                <a href="#"> أدخل بياناتك </a>
-                                            </div>
-                                        </div>
-                                      <div class="col-md-4">
-                                          <div class="form-group">
-                                              <input type="text" name="subject" id="number" class="form-control2" placeholder="رقم التواصل" />
-                                          </div>
-                                      </div>
-                                      <div class="col-md-4">
-                                          <div class="form-group">
-                                              <input type="text" name="name" id="name" class="form-control2" placeholder="الاسم"/>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </form><!-- END OF /. FORM -->
-
-                </div>
-                <!-- END OF /. CONTAINER -->
-            </div>
-            <!-- END OF /. CONTACT BUTTON SECTION -->
+           
 
 
             <!-- START FOOTER TOP SECTION -->
